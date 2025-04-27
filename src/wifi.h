@@ -8,6 +8,14 @@
 #include "esp_log.h"
 #include <string.h>
 
+#ifndef CONFIG_WIFI_SSID
+#error "CONFIG_WIFI_SSID is not defined! Please define it via build_flags or environment variables."
+#endif
+
+#ifndef CONFIG_WIFI_PASS
+#error "CONFIG_WIFI_PASS is not defined! Please define it via build_flags or environment variables."
+#endif
+
 #define WIFI_SSID CONFIG_WIFI_SSID
 #define WIFI_PASS CONFIG_WIFI_PASS
 
