@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "esp_chip_info.h": "c",
+        "esp_system.h": "c",
+        "stdio.h": "c",
+        "wifi.h": "c"
+    }
+}
